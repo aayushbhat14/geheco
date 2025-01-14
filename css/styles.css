@@ -162,6 +162,27 @@ body {
     color: var(--light-text);
 }
 
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+.hero-slide img, 
+.hero-slide svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* Vision Section */
 .vision {
     padding: 5rem 0;
@@ -208,6 +229,14 @@ body {
 .project-slider {
     margin-top: 2rem;
     position: relative;
+}
+
+.project-card img,
+.project-card svg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
 }
 
 /* Technologies Section */

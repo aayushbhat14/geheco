@@ -2,16 +2,16 @@
 const heroSliderConfig = {
     images: [
         {
-            url: 'images/hero-1.jpg',
-            alt: 'Sustainable Energy Solutions'
+            url: 'images/svg/hero-1.svg',
+            alt: 'Solar Energy Solutions'
         },
         {
-            url: 'images/hero-2.jpg',
-            alt: 'Green Technology'
+            url: 'images/svg/hero-2.svg',
+            alt: 'Wind Energy Technology'
         },
         {
-            url: 'images/hero-3.jpg',
-            alt: 'Renewable Energy'
+            url: 'images/svg/hero-3.svg',
+            alt: 'Biomass Energy Plant'
         }
     ],
     interval: 5000 // 5 seconds
@@ -23,22 +23,21 @@ const projectSliderConfig = {
         {
             title: 'Solar Farm Project',
             description: 'Large-scale solar energy implementation',
-            image: 'images/project-1.jpg'
+            image: 'images/svg/project-1.svg'
         },
         {
             title: 'Wind Energy Complex',
             description: 'Offshore wind turbine installation',
-            image: 'images/project-2.jpg'
+            image: 'images/svg/project-2.svg'
         },
         {
             title: 'Biomass Facility',
             description: 'Sustainable biomass energy production',
-            image: 'images/project-3.jpg'
+            image: 'images/svg/project-3.svg'
         }
     ],
     interval: 4000 // 4 seconds
 };
-
 class Slider {
     constructor(elementId, config, type) {
         this.element = document.getElementById(elementId);
