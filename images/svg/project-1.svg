@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F0F8FF"/>
+  
+  <!-- Solar Panel Installation -->
+  <g transform="translate(50, 50)">
+    <!-- Panel Rows -->
+    <g transform="skewY(15)">
+      <rect x="0" y="0" width="80" height="50" fill="#2C5282"/>
+      <rect x="90" y="0" width="80" height="50" fill="#2C5282"/>
+      <rect x="180" y="0" width="80" height="50" fill="#2C5282"/>
+    </g>
+    <g transform="translate(0, 40) skewY(15)">
+      <rect x="0" y="0" width="80" height="50" fill="#2C5282"/>
+      <rect x="90" y="0" width="80" height="50" fill="#2C5282"/>
+      <rect x="180" y="0" width="80" height="50" fill="#2C5282"/>
+    </g>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="320" cy="60" r="30" fill="#FFD700"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#90A955"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Sky background -->
+  <rect width="800" height="400" fill="#A4D1E9"/>
+  
+  <!-- Factory Building -->
+  <g transform="translate(200, 150)">
+    <!-- Main Building -->
+    <rect x="0" y="0" width="400" height="200" fill="#E8E8E8"/>
+    <!-- Windows -->
+    <g fill="#A5D6F7">
+      <rect x="40" y="40" width="40" height="60"/>
+      <rect x="120" y="40" width="40" height="60"/>
+      <rect x="200" y="40" width="40" height="60"/>
+      <rect x="280" y="40" width="40" height="60"/>
+    </g>
+    <!-- Roof -->
+    <path d="M-20 0 L200 -50 L420 0 Z" fill="#CCCCCC"/>
+    
+    <!-- Chimneys -->
+    <g>
+      <rect x="80" y="-80" width="30" height="100" fill="#B0B0B0"/>
+      <rect x="200" y="-90" width="30" height="110" fill="#B0B0B0"/>
+      <rect x="320" y="-85" width="30" height="105" fill="#B0B0B0"/>
+    </g>
+    
+    <!-- Steam -->
+    <g fill="#FFFFFF" opacity="0.7">
+      <path d="M85 -90 Q95 -120 105 -90 T125 -90" />
+      <path d="M205 -100 Q215 -130 225 -100 T245 -100" />
+      <path d="M325 -95 Q335 -125 345 -95 T365 -95" />
+    </g>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="350" width="800" height="50" fill="#8B7355"/>
+  
+  <!-- Trees -->
+  <g fill="#4A7834">
+    <path d="M50 350 L80 250 L110 350 Z"/>
+    <path d="M120 350 L150 270 L180 350 Z"/>
+    <path d="M650 350 L680 260 L710 350 Z"/>
+    <path d="M720 350 L750 280 L780 350 Z"/>
+  </g>
+</svg>
