@@ -130,6 +130,5 @@ class Slider {
 
 // Initialize sliders
 document.addEventListener('DOMContentLoaded', () => {
-    const heroSlider = new Slider('heroSlider', heroSliderConfig, 'hero');
     const projectSlider = new Slider('projectSlider', projectSliderConfig, 'project');
 });
